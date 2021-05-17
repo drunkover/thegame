@@ -121,6 +121,7 @@ function getNextQuestion(allQuestions, chosenLanguages){
 
         case DARE:
             if(currentQuestion.num_players > players.length-1){
+                localStorage.removeItem('currentQuestionId');
                 getNextQuestion(allQuestions, chosenLanguages);
                 return;
             }
