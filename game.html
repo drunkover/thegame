@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drunkover</title>
+
+    <script>
+        
+        const GAME_VERSION = 1, RUNNING_GAME = 'Running', FINISHED_GAME = 'Ended';
+
+
+        if(localStorage.getItem('version') != GAME_VERSION){
+            location.href = 'index.html';
+        }
+
+        const currentGameStatus = localStorage.getItem('gameStatus');
+        if(currentGameStatus != RUNNING_GAME){
+            if(currentGameStatus == FINISHED_GAME){
+                location.href = 'postgame.html';
+            }
+            else {
+                location.href = 'index.html';
+            }
+        }
+
+    </script>
+
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Padauk&family=Rosario&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/game.css">
+
+    <script src="js/all.js" defer></script>
+    <script src="js/game.js" defer></script>
+</head>
+<body>
+
+    <template id="template-pictionary">
+        <h1 class="question-title"></h1>
+        <div data-hidden="hidden">
+            <img src="" alt="Pictionary Category">
+        </div>
+    </template>
+
+    <template id="template-dare">
+        <p class="dare dare-en"></p>
+        <p class="dare dare-ar" dir="rtl"></p>
+        <p class="dare dare-internet"></p>
+        <p class="dare dare-fr"></p>
+    </template>
+
+    <template id="template-triplet">
+        <p class="truth truth-en"></p>
+        <p class="truth truth-ar" dir="rtl"></p>
+        <p class="truth truth-internet"></p>
+        <p class="truth truth-fr"></p>
+    </template>
+
+    <template id="template-guessthesong">
+        <h1 class="question-title"></h1>
+        <div data-hidden="hidden">
+            <h2 class="question-guessthesong"></h2>
+        </div>
+    </template>
+
+    <div class="main-overlay" id="main-overlay">
+
+    </div>
+
+    <div class="modal-prequestion" id="modal-prequestion">
+        <h1></h1>
+        <button type="button" id="close-modal-prequestion">Done</button>
+    </div>
+    
+    <header>
+        <section class="section-languages">
+            <button type="button" id="btn-languages">
+                <img src="images/globe.png" alt="Globe Icon" width="20px" height="20px">&nbsp;<span>Languages</span>
+            </button>
+            <ul >
+                <li>
+                    <label><input type="checkbox" class="language" value="en"> English</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" class="language" value="internet"> Internet</label>
+                </li>
+                <!-- <li>
+                    <label><input type="checkbox" class="language" value="ar"> Arabic</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" class="language" value="fr"> French</label>
+                </li> -->
+            </ul>
+        </section>
+        <img src="" alt="Category Logo" class="main-logo" id="main-logo">
+        <h1 id="question-number"></h1>
+    </header>
+
+    <main>
+        <div class="question-wrapper" id="question-wrapper">
+
+        </div>
+        <div class="answers">
+            <button type="button" class="btn-answer" id="correct-answer">
+                <img src="images/add.png" alt="Correct Answer">
+            </button>
+            <button type="button" class="btn-answer" id="wrong-answer">
+                <img src="images/remove.png" alt="Wrong Answer">
+            </button>
+        </div>
+    </main>
+
+</body>
+</html>

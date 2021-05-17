@@ -1,0 +1,212 @@
+[
+    {
+        "id": 642,
+        "en": "{}, open your wallet and give {} the least money paper/coin value!",
+        "internet": "{} fta7 el pochette w 3ti {} azghar war2et massare ma3ak yeha!",
+        "ar": " .إفتح الحقيبة وأعطي {} أصغر ورقة نقدية لديك {}",
+        "fr": "{} ouvre ton porte-monnai et donne {} la monnai qui la moindre valeur.",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 2
+    },
+    {
+        "id": 643,
+        "en": "{}, you must ask the group for permission to use the bathroom for the rest of the night.",
+        "internet": "{}, kell ma baddak tfout 3l toilette baddak tekhoud ezen el group!",
+        "ar": "{}، !كل ما تريد الذهاب إلى الحمام يجب أن تأخذ الإذن من الفريق",
+        "fr": "{}, a chaque fois tu veux passer aux toilettes, tu dois prendre la permisssion du groupe!",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 1
+    },
+    {
+        "id": 644,
+        "en": "Let {} dance oriental for 5 mins",
+        "internet": "Let {} dance for 5min (Internet)",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 1
+    },
+    {
+        "id": 645,
+        "en": "{} try applying makeup to {}",
+        "internet": "{} 3mol makeup la {}",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 2
+    },
+    {
+        "id": 646,
+        "en": "{} try eating a snack without using your hands.",
+        "internet": "{} kol shi 3n el tawle bala testa3mel idek",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 1
+    },
+    {
+        "id": 647,
+        "en": "{} lap dance to {}",
+        "internet": "{} 3mol striptease la {}",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 2
+    },
+    {
+        "id": 648,
+        "en": "{} try putting your entire fist in your mouth",
+        "internet": "{} jarreb fawwet kell idak be teammak",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 1
+    },
+    {
+        "id": 649,
+        "en": "{} recite the alphabets successfully in descending order",
+        "internet": "{} samme3 el ahrouf el abjadiye bl eleb",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 1
+    },
+    {
+        "id": 650,
+        "en": "{} exchange clothes with {}",
+        "internet": "{} baddel tyebak ma3 {}",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 2
+    },
+    {
+        "id": 651,
+        "en": "{}, blindfold {} and make them kiss any 3 objects",
+        "internet": "{}, ghammed 3youn {} w khalli yboos 3 eshya",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 2
+    },
+    {
+        "id": 652,
+        "en": "{} sing a romantic song",
+        "internet": "{} ghanne ghenniye romansiyye ya kbir",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 1
+    },
+    {
+        "id": 653,
+        "en": "{} eat a whole piece of paper",
+        "internet": "{} kol war2a be kemela",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 1
+    },
+    {
+        "id": 654,
+        "en": "{} draw something on {}'s back by licking",
+        "internet": "{} rsom shi 3a daher {} be lsenak",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 2
+    },
+    {
+        "id": 655,
+        "en": "{}, call a random number, and when someone picks up, immediately start singing the National Anthem.",
+        "internet": "{}, de2 la hayalla ra2em byotla3 be wejjak 3l whatsapp w bass yred ghanne el nashid el watane.",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 1
+    },
+    {
+        "id": 656,
+        "en": "{} lick the wall for 10 seconds",
+        "internet": "{} lhas el heit la 10 seconds",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 1
+    },
+    {
+        "id": 657,
+        "en": "{}, color your teeth with lipstick and {} take a pic of him",
+        "internet": "{} lawwen snenak bl homra w {} khedlo soura",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 2
+    },
+    {
+        "id": 658,
+        "en": "{}, you have to smoke 2 cigarettes at one time.",
+        "internet": "{}, baddak tdakhen cigarten be zet el wa2et.",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 1
+    },
+    {
+        "id": 659,
+        "en": "{}, write on your story : 'wen betsir karem el zaytoun?'",
+        "internet": "{}, ktob 3l story 3ndak: 'wen betsir karem el zaytoun?'",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 1
+    },
+    {
+        "id": 660,
+        "en": "{} close your eyes and let {} put whatever food from the fridge they want in your mouth",
+        "internet": "{} ghammed 3yoonak w khalle {} yhattelak hayalla shi mn el berrad be temmak",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 2
+    },
+    {
+        "id": 661,
+        "en": "{} lick mayonnaise off of {}'s toe",
+        "internet": "{} lahwes el mayyonaise 3n dofer {}",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 2
+    },
+    {
+        "id": 662,
+        "en": "{} go to the bathroom, and {} has to be in there with you the whole time",
+        "internet": "{} foot 3l toilette w {} lezem ykoun ma3ak kell el wa2et",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "medium",
+        "category": "dare",
+        "num_players": 2
+    }
+]

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drunkover</title>
+
+    <script>
+        
+        const GAME_VERSION = 1, RUNNING_GAME = 'Running', FINISHED_GAME = 'Ended';
+
+        const currentGameStatus = localStorage.getItem('gameStatus');
+        if(localStorage.getItem('version') == GAME_VERSION){
+            if(currentGameStatus == RUNNING_GAME){
+                location.href = 'game.html';
+            }
+            // else {
+            //     location.href = 'postgame.html';
+            // }
+        }
+
+    </script>
+
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Padauk&family=Rosario&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/all.js" defer></script>
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    
+    <div class="main-overlay" id="main-overlay">
+
+    </div>
+
+    <div class="modal-rules" id="modal-rules" data-modal="modal">
+        <section class="modal-rules-header">
+            <h1>Game Rules</h1>
+            <button class="close-modal" id="close-rules-modal">
+                &times;
+            </button>
+        </section>
+        <section class="modal-rules-body">
+            <ul>
+                <li>
+                    <img src="images/pictionary.png" alt="Pictionary">
+                    <p>
+                        Pictionary: A picture is displayed on the screen, so you have to pass it to the mentioned person in order to make them guess what he is seeing without speaking, just by miming.
+                    </p>
+                </li>
+                <li>
+                    <img src="images/dare.png" alt="Dare">
+                    <p>
+                        Dares: There’s a list of dares you should do otherwise you lose.
+                    </p>
+                </li>
+                <li>
+                    <img src="images/triplet.png" alt="Triple T">
+                    <p>
+                        Tell The Truth: There’s a list of questions you should answer “honestly” otherwise you lose.
+                    </p>
+                </li>
+                <li>
+                    <img src="images/guess_the_song.png" alt="Guess The Song">
+                    <p>
+                        Guess the song: A song title will be shown on the screen, you have to pass it to the mentioned player in order to make the group guess the song without speaking, just by miming.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="modal-rules-footer">
+            <h2>Tips</h2>
+            <ul>
+                <li>
+                    The difficulty is set to the dirty level of the game accordingly.
+                </li>
+                <li>
+                    If a player looses in any category, you can make him drink a sip of alcohol, in other terms turn the Drinkover into a drinking game.
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <header>
+        <section class="section-languages">
+            <button type="button" id="btn-languages">
+                <img src="images/globe.png" alt="Globe Icon" width="20px" height="20px">&nbsp;<span>Languages</span>
+            </button>
+            <ul>
+                <li>
+                    <label><input type="checkbox" class="language" value="en"> English</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" class="language" value="internet"> Internet</label>
+                </li>
+                <!-- <li>
+                    <label><input type="checkbox" class="language" value="ar"> Arabic</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" class="language" value="fr"> French</label>
+                </li> -->
+            </ul>
+        </section>
+        <img src="images/logo.png" alt="Drunkover Logo" class="main-logo">
+    </header>
+
+    <main>
+        <section class="section-difficulties">
+            <h1 class="section-title">Choose Difficulty</h1>
+
+            <div class="difficulties-wrapper">
+                <button class="difficulty" data-difficulty="easy">Easy</button>
+                <button class="difficulty chosen" data-difficulty="medium">Medium</button>
+                <button class="difficulty" data-difficulty="hard">Hard</button>
+            </div>
+        </section>
+
+        <section class="section-categories">
+            <h1 class="section-title">Choose Categories</h1>
+
+            <div class="categories-wrapper">
+                <button type="button" class="category" id="category-pictionary" data-category="pictionary">
+                    <img src="images/pictionary.png" alt="Pictionary">
+                </button>
+                <button type="button"  class="category chosen" id="category-dare" data-category="dare">
+                    <img src="images/dare.png" alt="Dare">
+                </button>
+                <button type="button"  class="category chosen" id="category-triplet" data-category="triplet">
+                    <img src="images/triplet.png" alt="Triple T">
+                </button>
+                <button type="button"  class="category" id="category-guessthesong" data-category="guessthesong">
+                    <img src="images/guess_the_song.png" alt="Guess The Song">
+                </button>
+            </div>
+        </section>
+        
+        <section class="section-players">
+            <h1 class="section-title">Add Players (2 To 12 Players)</h1>
+            
+            <div class="add-players">
+                <input type="text" class="input-name" id="input-name" placeholder="Name">
+                <button type="button" id="add-player">
+                    <img src="images/add.png" alt="Add Player">
+                </button>
+            </div>
+
+            <template id="player-template">
+                <label>Player Name</label>
+                <button type="button" class="remove-player">
+                    <img src="images/remove.png" alt="Remove Player">
+                </button>
+            </template>
+
+            <div class="players-list" id="players-list">
+            </div>
+        </section>
+        
+        <section class="section-startgame">
+            <button type="button" id="btn-help">
+                <img src="images/rules.png" alt="Game Rules">
+                &nbsp;Game Rules
+            </button>
+            <button type="button" class="btn-start" id="start-game">Start Game</button>
+        </section>
+
+    </main>
+
+</body>
+</html>
