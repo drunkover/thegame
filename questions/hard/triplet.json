@@ -181,7 +181,7 @@
     },
         {
         "id": 61,
-        "en": "{}, whatis the most disgusting habit you have?",
+        "en": "{}, what is the most disgusting habit you have?",
         "internet": "{}, shoo a2raf 3ade 3ndak yeha?",
         "ar": "{}, did you ever climb a mountain3? (Ar)",
         "fr": "{}, did you ever climb a mountain3? (Fr)",
@@ -199,8 +199,8 @@
     },
         {
         "id": 63,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
+        "en": "{}, say two honest things about everyone in the group",
+        "internet": "{}, oul shaghelten sarihin 3n kell shakhes bl group",
         "ar": "{}, did you ever climb a mountain3? (Ar)",
         "fr": "{}, did you ever climb a mountain3? (Fr)",
         "difficulty": "hard",
@@ -208,8 +208,8 @@
     },
         {
         "id": 64,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
+        "en": "{}, would you rather  ",
+        "internet": "{}, ",
         "ar": "{}, did you ever climb a mountain3? (Ar)",
         "fr": "{}, did you ever climb a mountain3? (Fr)",
         "difficulty": "hard",
@@ -217,8 +217,8 @@
     },
         {
         "id": 65,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
+        "en": "{}, who in the room would be the worst person to date and why?",
+        "internet": "{}, min bl ouda betle2i aswa2 shakhes annak todhar ma3o w leh?",
         "ar": "{}, did you ever climb a mountain3? (Ar)",
         "fr": "{}, did you ever climb a mountain3? (Fr)",
         "difficulty": "hard",
@@ -226,105 +226,16 @@
     },
         {
         "id": 66,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
+        "en": "{}, who do you think is the worst dressed person in the room?",
+        "internet": "{}, min bl ouda lebes absha3 shi be ra2yak?",
         "ar": "{}, did you ever climb a mountain3? (Ar)",
         "fr": "{}, did you ever climb a mountain3? (Fr)",
         "difficulty": "hard",
         "category": "triplet"
     },
-        {
-        "id": 67,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
-        "ar": "{}, did you ever climb a mountain3? (Ar)",
-        "fr": "{}, did you ever climb a mountain3? (Fr)",
-        "difficulty": "hard",
-        "category": "triplet"
-    },
-        {
-        "id": 68,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
-        "ar": "{}, did you ever climb a mountain3? (Ar)",
-        "fr": "{}, did you ever climb a mountain3? (Fr)",
-        "difficulty": "hard",
-        "category": "triplet"
-    },
-        {
-        "id": 69,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
-        "ar": "{}, did you ever climb a mountain3? (Ar)",
-        "fr": "{}, did you ever climb a mountain3? (Fr)",
-        "difficulty": "hard",
-        "category": "triplet"
-    },
-        {
-        "id": 70,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
-        "ar": "{}, did you ever climb a mountain3? (Ar)",
-        "fr": "{}, did you ever climb a mountain3? (Fr)",
-        "difficulty": "hard",
-        "category": "triplet"
-    },
-        {
-        "id": 71,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
-        "ar": "{}, did you ever climb a mountain3? (Ar)",
-        "fr": "{}, did you ever climb a mountain3? (Fr)",
-        "difficulty": "hard",
-        "category": "triplet"
-    },
-        {
-        "id": 72,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
-        "ar": "{}, did you ever climb a mountain3? (Ar)",
-        "fr": "{}, did you ever climb a mountain3? (Fr)",
-        "difficulty": "hard",
-        "category": "triplet"
-    },
-        {
-        "id": 73,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
-        "ar": "{}, did you ever climb a mountain3? (Ar)",
-        "fr": "{}, did you ever climb a mountain3? (Fr)",
-        "difficulty": "hard",
-        "category": "triplet"
-    },
-        {
-        "id": 74,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
-        "ar": "{}, did you ever climb a mountain3? (Ar)",
-        "fr": "{}, did you ever climb a mountain3? (Fr)",
-        "difficulty": "hard",
-        "category": "triplet"
-    },
-        {
-        "id": 75,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
-        "ar": "{}, did you ever climb a mountain3? (Ar)",
-        "fr": "{}, did you ever climb a mountain3? (Fr)",
-        "difficulty": "hard",
-        "category": "triplet"
-    },
-        {
-        "id": 76,
-        "en": "{}, what do you find the most disgusting about the opposite sex?",
-        "internet": "{}, shoo ell shi le betle2i aktar shi me2ref bl jenes le ghayrak?",
-        "ar": "{}, did you ever climb a mountain3? (Ar)",
-        "fr": "{}, did you ever climb a mountain3? (Fr)",
-        "difficulty": "hard",
-        "category": "triplet"
-    },
+        
     {
-    "id": 77,
+    "id": 67,
     "en": "{}, how many times you said 'i love you' and you were lying?",
     "internet": "{}, kam marra elet bhebbik w kenet 3m betkazzeb?",
     "ar": "{}, did you ever climb a mountain3? (Ar)",
@@ -333,7 +244,7 @@
     "category": "triplet"
 },
 {
-"id": 78,
+"id": 68,
 "en": "{}, how long didn't you take a shower in a row?",
 "internet": "{},adde kenet atwal fatra ma tahmmamet fiya wara ba3ed?",
 "ar": "{}, did you ever climb a mountain3? (Ar)",
@@ -342,7 +253,7 @@
 "category": "triplet"
 },
 {
-"id": 79,
+"id": 69,
 "en": "{}, how many times you didn't brush your teeth this year?",
 "internet": "{}, kam yom affet hal sene ma farshet snenak fiyon?",
 "ar": "{}, did you ever climb a mountain3? (Ar)",
@@ -351,7 +262,7 @@
 "category": "triplet"
 },
 {
-"id": 80,
+"id": 70,
 "en": "{}, if you asked someone for a dinner and they order something exepnsive and you don't have enough money, what would you do?",
 "internet": "{}, eza 3ezem hadan 3l 3asha w talab shi ghale w ma ma3ak ha22o, shoo btaamoul?",
 "ar": "{}, did you ever climb a mountain3? (Ar)",
