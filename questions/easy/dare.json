@@ -21,8 +21,8 @@
     },
     {
         "id": 602,
-        "en": "Let {} dance oriental for 5 mins",
-        "internet": "Let {} dance for 5min (Internet)",
+        "en": "Let {} dance oriental for 3 mins",
+        "internet": "{} lezm yor2oss shar2e la 3 mins",
         "ar": "Let {} dance for 5min (Ar)",
         "fr": "Let {} dance for 5min (Fr)",
         "difficulty": "easy",
@@ -42,7 +42,7 @@
     {
         "id": 604,
         "en": "{} try eating a snack without using your hands.",
-        "internet": "{} kol shi 3n el tawle bala testa3mel idek",
+        "internet": "{} kol shi 3n el tawle bala ma testa3mel idek",
         "ar": "Let {} dance for 5min (Ar)",
         "fr": "Let {} dance for 5min (Fr)",
         "difficulty": "easy",
@@ -52,7 +52,7 @@
     {
         "id": 605,
         "en": "{} lap dance to {}",
-        "internet": "{} 3mol striptease la {}",
+        "internet": "{} 3mol striptease 3a {}",
         "ar": "Let {} dance for 5min (Ar)",
         "fr": "Let {} dance for 5min (Fr)",
         "difficulty": "easy",
@@ -208,5 +208,15 @@
         "difficulty": "easy",
         "category": "dare",
         "num_players": 2
+    },
+        {
+        "id": 621,
+        "en": "{} go to the bathroom, and {} has to be in there with you the whole time",
+        "internet": "{} oul: 'Zammar Jabbour bel zammour, bel zammour zammar Jabbour' 10 times",
+        "ar": "Let {} dance for 5min (Ar)",
+        "fr": "Let {} dance for 5min (Fr)",
+        "difficulty": "easy",
+        "category": "dare",
+        "num_players": 1
     }
 ]
