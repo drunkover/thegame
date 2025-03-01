@@ -58,7 +58,7 @@ header #btn-restart {
 }
 
 header #btn-languages {
-/*     display: flex; */
+    display: inline-block;
     align-items: center;
     background-color: transparent;
     color: var(--gray);
