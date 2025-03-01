@@ -45,6 +45,17 @@ header .section-languages {
     top: 1rem;
     right: 0.5rem;
 }
+header #btn-restart {
+    display: flex;
+    align-items: left;
+    background-color: transparent;
+    color: var(--gray);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    transition: opacity 0.3s;
+}
 
 header #btn-languages {
     display: flex;
