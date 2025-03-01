@@ -48,7 +48,7 @@ header .section-languages {
 header #btn-restart {
     display: flex;
     align-items: left;
-    background-color: transparent;
+    background-color: transparent!important;
     color: var(--gray);
     border: none;
     outline: none;
@@ -58,7 +58,7 @@ header #btn-restart {
 }
 
 header #btn-languages {
-    display: flex;
+/*     display: flex; */
     align-items: center;
     background-color: transparent;
     color: var(--gray);
