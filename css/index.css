@@ -125,15 +125,50 @@ header .main-logo {
     transition: all 0.3s;
 }
 
+
+
+.section-difficulties, 
+.section-rounds,
+.section-categories {
+    margin-bottom: 2rem;
+}
+
+.rounds-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.rounds-wrapper .round {
+    font-family: Padauk, sans-serif;
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+    padding: 0.2rem 1rem;
+    background-color: var(--gray);
+    border: solid 3px var(--gray);
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    transition: all 0.3s;
+}
+
 .difficulties-wrapper .difficulty:hover, 
+.rounds-wrapper .round.chosen,
 .categories-wrapper .category:hover {
     opacity: 0.8;
 }
 
 .difficulties-wrapper .difficulty.chosen, 
+.rounds-wrapper .round.chosen,
 .categories-wrapper .category.chosen {
     border-color: var(--green);
 }
+
+
+
+
+
+
+
 
 .categories-wrapper {
     display: flex;
