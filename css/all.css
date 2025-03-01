@@ -46,7 +46,7 @@ header .section-languages {
     right: 0.5rem;
 }
 header #btn-restart {
-    display: flex;
+
     align-items: left;
     background-color: transparent!important;
     color: var(--gray);
