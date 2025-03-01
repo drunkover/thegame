@@ -188,7 +188,7 @@ function getNextQuestion(allQuestions, chosenLanguages){
     return currentQuestion;
 }
 
-const PICTIONARY = 'pictionary', DARE = 'dare', TRIPLE_T = 'triplet', GUESS_THE_SONG = 'guessthesong', GAME_NUM_ROUNDS = 30;
+const PICTIONARY = 'pictionary', DARE = 'dare', TRIPLE_T = 'triplet', GUESS_THE_SONG = 'guessthesong', GAME_NUM_ROUNDS = 2;
 
 const mainLogo = document.getElementById('main-logo');
 const questionNumber = document.getElementById('question-number');
