@@ -73,6 +73,10 @@ header #btn-languages:hover {
     opacity: 0.8;
 }
 
+header #btn-restart:hover {
+    opacity: 0.8;
+}
+
 header #btn-languages span {
     font-size: 1rem;
     font-family: Padauk, sans-serif;
