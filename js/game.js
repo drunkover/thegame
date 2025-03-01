@@ -187,7 +187,7 @@ function getNextQuestion(allQuestions, chosenLanguages){
 
     return currentQuestion;
 }
-const GAME_NUM_ROUNDS = document.getElementById("numberofrounds");
+const GAME_NUM_ROUNDS = rounds;
 const PICTIONARY = 'pictionary', DARE = 'dare', TRIPLE_T = 'triplet', GUESS_THE_SONG = 'guessthesong';
 
 const mainLogo = document.getElementById('main-logo');
@@ -206,6 +206,7 @@ closeModalPrequestionBtn.addEventListener('click', closePreQuestionModal);
 const players = JSON.parse(localStorage.getItem('players'));
 const difficulty = localStorage.getItem('difficulty');
 const categories = JSON.parse(localStorage.getItem('categories'));
+const rounds = JSON.parse(localStorage.getItem('round'));
 
 let currentQuestion;
 let totalQuestions = localStorage.getItem('totalQuestions');
