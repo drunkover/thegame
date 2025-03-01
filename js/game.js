@@ -114,8 +114,13 @@ function getNextQuestion(allQuestions, chosenLanguages){
             questionBody = document.importNode(pictionaryTemplate.content, true);
             questionBody.querySelector('.question-title').innerText = `${currentPlayer}, Make Them Guess This Image`;
             questionBody.querySelector('div[data-hidden=hidden]').style.display = 'none';
-            questionBody.querySelector('img').src = `pictionary/${currentQuestion.image}`;
-
+        //    questionBody.querySelector('img').src = `pictionary/${currentQuestion.image}`;
+// Fetch a random image from the web
+    fetch('https://source.unsplash.com/random/400x300')
+      .then(response => {
+        questionBody.querySelector('img').src = response.url;
+      })
+      .catch(error => console.error('Error loading the image:', error));
             currentPlayerTurnIndex = (currentPlayerTurnIndex+1) % players.length;
             break;
 
